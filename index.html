@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularze</title>
+</head>
+
+<body>
+
+  <form action="" method="GET">
+    <label for="username">Imie</label>
+    <input type="text" name="username" id="username" required><br>
+    <input type="email" name="email" placeholder="Podaj adres e-mail"><br>
+    <input type="number" name="quantity" min="1" max="10" disabled><br>
+    <label><input type="checkbox" name="agreement">Wyrazam zgode na przetwarzanie danych osobowych</label><br>
+
+    <label><input type="radio" name="choise">Tak</label><br>
+    <label><input type="radio" name="choise">Nie</label><br>
+    <label><input type="radio" name="choise">Nie wiem</label><br>
+
+    <textarea name="message" maxlength="50"></textarea><br>
+    <select name="city">
+      <option value="Krakow">Krakow</option>
+      <option value="Sosnowiec" selected>Sosnowiec</option>
+      <option value="Warszawa">Warszawa</option>
+    </select><br>
+    <input type="submit" value="Wyslij formularz">
+  </form>
+
+</body>
+
+</html>
